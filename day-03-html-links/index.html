@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3- HTML Links</title>
+</head>
+<body>
+    <h1>Welcome to HTML Links</h1>
+    <section>
+        <!-- anchor element: used to create hyperlinks -->
+        <a href="https://www.freecodecamp.org" target="_blank">Visit freeCodeCamp</a>
+        <br>
+        <!-- anchor element with different target attributes -->
+        <a href="https://www.freecodecamp.org" target="_self">Code Camp</a>
+        <a href="https://www.freecodecamp.org" target="_top">Free Code Camp</a>
+        <a href="https://www.freecodecamp.org" target="_parent">Vist CodeCamp</a>
+        <br>
+        <!-- anchor element with a relative link -->
+        <a href="#info">Information</a><br>
+        <!-- anchor element with an id link -->
+        <a href="#about">About Us</a><br>
+        <a href="#contact">Contact Us</a>
+    </section>
+
+    <hr>
+    <section>
+        <h2 id="info">Information</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nulla earum omnis dicta ea. Ducimus.
+        </p>
+        <br>
+        <h2 id="about">About Us</h2>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque minima id ducimus, numquam eveniet ad ullam nobis inventore consequatur est!
+        </p>
+        <br>
+        <h2 id="contact">Contact Us</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Doloribus, cumque.
+        </p>
+    </section>
+
+    <hr>
+    <section>
+        <h2>Image with Link</h2>
+        <!-- Image wrapped in an anchor element to make it clickable -->
+        <a href="https://www.freecodecamp.org" target="_blank">
+            <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" 
+                 alt="A relaxing cat sleeping peacefully" style="width: 300px; height: auto;">
+        </a>
+    </section>
+
+    <hr>
+    <section>
+        <h2>Email Link</h2>
+        <!-- anchor element with a mailto link -->
+        <a href="mailto:abc@gmail.com">Send mail</a>
+    </section>
+
+    <hr>
+    <section>
+        <h2>Phone Link</h2>
+        <!-- anchor element with a tel link -->
+        <a href="tel:+1234567890">Call Us</a>
+    </section>
+    <hr>
+    <section>
+        <h2>Download Link</h2>
+        <!-- anchor element with a download attribute -->
+        <a href="https://www.example.com/sample.pdf" download>Download Sample PDF</a>       
+    </section>
+</body>
+</html>
