@@ -23,6 +23,6 @@ Download Link: Downloads a sample PDF
 - [Example PDF Placeholder](https://www.example.com/sample.pdf)
 
 ## 📁 Project Files:
-day-01-html-basics/
+day-01-html-links/
 ├── index.html
 └── README.md
