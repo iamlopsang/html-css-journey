@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 8- Html Tables</title>
+</head>
+<body>
+    <h1>Learning Html Tables </h1>
+    
+    <!-- table with border, cellpadding and cellspacing attributes -->
+    <table border="1" cellpadding="10" cellspacing="0">
+        <!-- caption element is used to add a title to the table -->
+        <caption>Student Exam Results</caption>
+
+        <!-- thead element is used to group header content in a table -->
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Grade</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+
+        <!-- tbody element is used to group the body content in a table -->
+        <tbody>
+            <tr>
+                <!-- this cell spans 2 rows -->
+                <td rowspan="2">Alice</td>
+                <td>Math</td>
+                <td>A</td>
+                <td>Excellent</td>
+            </tr>
+
+            <tr>
+                <td>Science</td>
+                <td>B+</td>
+                <td>Good</td>
+            </tr>
+
+            <tr>
+                <td>Bob</td>
+                <!-- this cell spans across 2 columns -->
+                <td colspan="2">History and Geography</td>
+                <td>Very Good</td>
+            </tr>
+
+            <tr>
+                <td>Charlie</td>
+                <td>English</td>
+                <td>A-</td>
+                <td>Great</td>
+            </tr>
+        </tbody>
+
+        <!-- tfoot is used to group footer content in a table -->
+        <tfoot>
+            <tr>
+                <td colspan="3">Total Students</td>
+                <td>4</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
