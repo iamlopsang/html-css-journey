@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 11-Html Audio, Video, and Iframes</title>
+</head>
+<body>
+    <h1>Learning about HTML Audio, Video, and Iframes</h1>
+
+    <!-- Audio Section -->
+    <h2>Audio Example</h2>
+    <audio src="audio-sample.mp3"></audio>
+    <p>Click the play button to listen to the audio sample.</p>
+    <audio controls>
+        <source src="audio-sample.mp3" type="audio/mpeg">
+        <source src="audio-sample.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- audio attributes: example -->
+    <h3>Audio Attributes Example</h3>
+    <!-- attributes: controls, autoplay, loop -->
+    <p>Below is an audio element with controls, autoplay, and loop attributes.</p
+    <audio controls autoplay loop>
+        <source src="audio-sample.mp3" type="audio/mpeg">
+        <source src="audio-sample.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+    <p>This audio will play automatically, loop indefinitely, and has controls.</p>
+    <hr>
+
+    <!-- Video Section -->
+    <h2>Video Example</h2>
+    <video src="video1.mp4" controls muted paused width="500px" height="200px"></video>
+    <hr>
+    <h3>Video Attributes Example</h3>
+    <p>Below is a video element with controls, autoplay, and loop attributes.</p>
+    <video controls autoplay loop width="500px" height="200px">
+        <source src="video1.mp4" type="video/mp4">
+        <source src="video1.webm" type="video/webm">
+        Your browser does not support the video element.    
+    </video>
+    <p>This video will play automatically, loop indefinitely, and has controls.</p>
+    <hr>
+
+    <!-- Iframe Section -->
+    <h2>Iframe Example</h2> 
+    <iframe src="https://www.example.com/page-to-embed.html" title="embeded content"></iframe>
+    <p>This iframe embeds content from another website. You can adjust the width and height as needed.</p>
+
+    <!-- embed external page -->
+    <h3>Iframe Attributes Example</h3>
+    <p>Below is an iframe with specific width and height attributes.</p>    
+    <iframe src="https://www.example.com/page-to-embed.html" width="600" height="400" title="Embedded Content"></iframe>
+    <p>This iframe has a width of 600 pixels and a height of 400 pixels.</p>
+    <hr>
+
+    <!-- embed google maps -->
+    <h2>Embedding Google Maps</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.123456789012!2d-122.419415684681!3d37.774929779759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c8c8c8c8c%3A0x8c8c8c8c8c8c8c8c!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2sin!4v1616161616161" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <p>This iframe embeds a Google Map of San Francisco. You can adjust the width and height as needed.</p> 
+    <hr>
+
+    <!-- embed youtube video -->
+    <h2>Embedding YouTube Video</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/PLe24PzNFgA?si=GwekpHxsF5bzeYAp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p>This iframe embeds a YouTube video. You can adjust the width and height as needed.</p>
+</body>
+</html>
