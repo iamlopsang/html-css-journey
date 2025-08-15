@@ -1,0 +1,37 @@
+/* Universal selector - styles all elements */
+* {
+    background-color: rgb(94, 165, 226);
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 5px;
+}
+
+/* Element Selector - applies styles to specific HTML elements */
+h1, p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(165, 11, 139);
+    text-align: center;
+}
+
+/* Class Selector - targets elements with a specific class name */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid rgb(165, 11, 139);
+    border-radius: 10px;
+}
+
+.class-example {
+    background-color: rgb(255, 255, 0);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* ID Selector - targets a specific element with a unique ID */
+#id-example {
+    background-color: rgb(0, 255, 0);
+    padding: 10px;
+    border-radius: 5px;
+}
