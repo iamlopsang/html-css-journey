@@ -1,0 +1,77 @@
+/* --------- Anchor (link) states --------- */
+a:link {
+    color: blue;                 /* Default link color */
+    text-decoration: none;       /* Removes underline */
+}
+
+a:hover {
+    color: rgba(143, 4, 4, 0.973); /* Link color when hovered */
+    font-size: 1.1em;              /* Slightly enlarges */
+}
+
+a:visited {
+    color: purple;                /* Color after link is visited */
+    font-family: Arial, Helvetica, sans-serif; /* Changes font */
+}
+
+a:active {
+    color: rgb(14, 202, 29);      /* While clicking (active state) */
+    font-weight: bold;
+}
+
+
+/* --------- Structural pseudo-classes --------- */
+li {
+    list-style-type: none;        /* Removes bullets */
+    color: chartreuse;            /* Default color */
+}
+
+li:not(:hover) {
+    color: rgb(247, 190, 5);      /* Changes color when NOT hovered */
+}
+
+li:first-child {
+    color: rgb(8, 142, 231);      /* First item */
+    font-size: 20px;
+}
+
+li:last-child {
+    color: rgb(148, 6, 243);      /* Last item */
+    font-size: 20px;
+}
+
+li:nth-child(2) {
+    color: rgb(230, 7, 118);      /* Second item */
+    font-size: 22px;
+}
+
+li:nth-child(3n) {
+    color: rgb(255, 0, 0);        /* Every 3rd item */
+    font-size: 24px;
+}
+
+
+/* --------- Button states --------- */
+button {
+    background-color: rgb(59, 59, 240);
+    color: white;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: rgb(13, 245, 214); /* On hover */
+    color: black;
+    font-size: 20px;                      /* Slightly enlarges */
+}
+
+
+/* --------- Form pseudo-classes --------- */
+input:checked {
+    background-color: rgb(0, 255, 0); /* Green background when checked */
+    color: black;
+}
+
+input:disabled {
+    background-color: rgb(255, 0, 0); /* Red background for disabled input */
+    color: white;
+}
