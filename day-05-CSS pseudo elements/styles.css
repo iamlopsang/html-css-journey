@@ -1,0 +1,41 @@
+
+h2::first-letter{
+    font-size: 2em;
+    color: rgba(0, 183, 255, 0.918);
+}
+
+p::first-line{
+    font-weight: bold;
+    color: rgba(179, 14, 194, 0.945);
+}
+
+p::selection{
+    background-color: rgba(255, 0, 0, 0.5);
+    color: white;
+}
+
+
+.one::before{
+    content: "✔";
+}
+
+.two::before{
+    content: "✔";
+}
+
+.three::before{
+    content: "✔";
+}
+
+
+.one::after{
+    content: "🍎";
+}
+
+.two::after{
+    content: "🍊";
+}
+
+.three::after{
+    content: "🍉";
+}
