@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 6 - CSS Attributes Selectors</title>
+    <!-- Linking external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Learning about the CSS Attributes Selectors</h1>
+
+    <!-- Example: Selecting by "lang" attribute -->
+    <p lang="en">CSS attribute selectors allow you to select elements based on the presence or value of their attributes. Here are some examples:</p>
+    
+    <!-- Example: Selecting by "title" attribute -->
+    <p title="Hello">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, natus.</p>
+
+    <!-- Buttons with different "type" attributes -->
+    <button type="button">Click here</button>
+    <button type="reset">Reset</button>
+    <button type="submit">Submit</button>
+    <br>
+
+    <!-- Input fields with "value" attribute -->
+    <input value="Hello!, this is  my first practice">
+    <input value="Hello!, is my first practice">
+    <br><br>
+
+    <!-- Links with "href" attribute (testing ^ and $ selectors) -->
+    <a href="www.google.com">Google</a>
+    <a href="www.youtube.com">YouTube</a>
+    <a href="about.html">About Us</a>
+
+    <br><br>
+
+    <!-- Testing $ (ends with) selector -->
+    <a href="https://www.twitter.gov">Twitter</a>
+    <a href="www.nepalgov.np">Nepal</a>
+
+    <br><br>
+
+    <!-- Example: Selecting using substring in "title" -->
+    <h2 title="first">first</h2>
+    <h2 title="second">second</h2>
+    <h2 title="third">third</h2>
+
+    <br><br>
+
+    <!-- Example: Selecting languages with lang|="en" -->
+    <p lang="fr-CA">Canada</p>
+    <p lang="en-USA">USA</p>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+/* Selects all <p> elements that have a "lang" attribute */
+p[lang] {
+    color: red;
+    background-color: lightgray;
+}
+
+/* Selects all <p> elements with a "title" attribute */
+p[title] {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Selects button with type="button" */
+button[type="button"] {
+    background-color: rgb(25, 122, 155);
+    border: 2px solid blue;
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+/* Selects button with type="submit" */
+button[type="submit"] {
+    background-color: rgb(25, 155, 122);
+    border: 2px solid green;
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+/* Selects button with type="reset" */
+button[type="reset"] {
+    background-color: rgb(189, 8, 8);
+    border: 2px solid rgb(116, 20, 194);
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+/* Selects input whose value attribute contains the word "this" (space-separated match) */
+input[value~="this"] {
+    background-color: rgb(161, 8, 8);
+    color: rgb(185, 233, 241);
+    padding: 5px;
+}
+
+/* Selects links whose href starts with "www" */
+a[href^="www"] {
+    background-color: rgb(8, 124, 8);
+    color: rgb(236, 220, 128);
+    padding: 5px;
+}
+
+/* Selects links whose href ends with ".np" */
+a[href$=".np"] {
+    background-color: rgba(245, 21, 245, 0.781);
+    color: rgb(247, 240, 246);
+    padding: 5px;
+}
+
+/* Selects h2 elements whose title attribute contains the substring "cond" */
+h2[title*="cond"] {
+    background-color: rgb(8, 8, 124);
+    color: rgb(236, 220, 128);
+    padding: 5px;
+}
+
+/* Selects <p> elements where lang starts with "en" or is exactly "en" */
+p[lang|="en"] {
+    background-color: rgb(124, 8, 124);
+    color: rgb(236, 220, 128);
+    padding: 5px;
+}
