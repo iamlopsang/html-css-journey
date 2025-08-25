@@ -1,0 +1,27 @@
+/* Element selector (lowest specificity)
+   Applies to ALL <p> elements */
+p {
+    color: rgb(206, 240, 16);
+    font-size: 16px;
+}
+
+/* Descendant selector (.container p)
+   More specific than element selector */
+.container p {
+    color: rgb(240, 16, 206);
+    font-size: 18px;
+}
+
+/* Class selector (.highlight)
+   Higher specificity than element & container */
+.highlight {
+    color: rgb(16, 206, 240);
+    font-size: 20px;
+}
+
+/* ID selector (#unique)
+   Highest specificity (except inline style + !important) */
+#unique {
+    color: rgb(110, 8, 243) !important; /* !important overrides everything */
+    font-size: 22px;
+}

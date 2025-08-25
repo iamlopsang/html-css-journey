@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 7 - CSS Specificity & Inheritance</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Internal CSS (inline <style> block) 
+         Demonstrates higher priority than external CSS when specificity is equal -->
+    <style>
+        .container {
+            background-color: lightgray;
+            padding: 10px;
+            color: green; /* Base color inherited by child elements unless overridden */
+        }
+        .highlight {
+            color: blue; /* Competes with external .highlight class */
+            font-weight: bold;
+        }
+        #unique {
+            color: red; /* Inline style block shows higher specificity */
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Learning about CSS Specificity & Inheritance</h1>
+
+    <!-- Normal paragraph: styled by external CSS "p {}" rule -->
+    <p>This is a paragraph to demonstrate CSS specificity and inheritance.</p>
+
+    <!-- Inheritance Example: .container sets color + background -->
+    <div class="container">
+        <!-- Class selector vs parent inheritance: .highlight overrides parent color -->
+        <p class="highlight">This paragraph has a class and is inside a div with a class.</p>
+
+        <!-- ID selector applied: ID wins over class + element selectors -->
+        <p id="unique">This paragraph has an ID.</p>
+    </div>
+
+    <!-- Conflict Example: Element + Class + ID → ID wins -->
+    <p class="highlight" id="unique">This paragraph has both a class and an ID.</p>
+
+    <!-- Inheritance check: will take styles from "p {}" unless overridden -->
+    <p>This is another paragraph to see how inheritance works.</p>
+</body>
+</html>
