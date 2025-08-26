@@ -1,0 +1,59 @@
+/* Day 8 - CSS Colors */
+
+/* Style for main heading */
+h1 {
+    color: red;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    text-decoration: underline;
+}
+
+/* Base style for all paragraphs */
+p {
+    font-size: 20px;
+    color: blue;
+    background-color: lightgray;
+    border: 2px solid black;
+}
+
+/* Keyword color example */
+.color {
+    color: green;
+    font-weight: bold;
+}
+
+/* HEX color example */
+.hex {
+    color: #FF5733;
+    font-style: italic;
+    font-weight: 100;
+}
+
+/* RGB color example */
+.rgb {
+    color: rgb(0, 128, 255);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* HSL color example */
+.hsl {
+    color: hsl(240, 100%, 50%);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* RGBA color example (with transparency) */
+.rgba {
+    color: rgba(255, 0, 0, 0.5);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* HSLA color example (with transparency + background) */
+.hsla {
+    color: hsla(120, 100%, 25%, 0.8);
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(212, 151, 17);
+}
