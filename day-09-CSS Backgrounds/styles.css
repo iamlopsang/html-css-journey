@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;   /* Clean font */
+    margin: 20px;
+
+    /* Background applied to whole page */
+    background-color: #bc6ce0;        /* Base background color */
+    background-image: url('cover.jpg'); /* Adding an image */
+    background-size: contain;         /* Image fits but keeps ratio */
+    background-repeat: repeat-y;      /* Repeats vertically */
+    background-attachment: scroll;    /* Moves with scroll */
+}
+
+h1 {
+    color: rgb(145, 76, 236);         /* Text color */
+    text-align: center;               /* Center alignment */
+    text-shadow: 2px 2px 4px #000000; /* Shadow for depth */
+}
+
+.background {
+    /* Div with its own background */
+    /* background-color: #c826dd;  Uncomment to test solid background */
+
+    color: rgb(17, 30, 206);          /* Text color inside div */
+    background-image: url('flower.jpg'); /* Background image */
+    height: 300px;
+    width: 200px;
+    background-size: contain;         /* Keep image ratio */
+    padding-left: 15px;               /* Space inside div */
+    margin-left: 150px;               /* Space from left side */
+    padding-top: 10px;                /* Space above text */
+    background-attachment: fixed;     /* Fix background when scrolling */
+}
