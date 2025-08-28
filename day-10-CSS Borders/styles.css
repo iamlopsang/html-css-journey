@@ -1,0 +1,96 @@
+/* General styling for body */
+body {
+    background-color: lightgrey;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+h2 {
+    color: darkred;
+    margin: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    color: black;
+    margin: 20px;
+}
+
+/* Outer container with a simple black border */
+#borders-examples {
+    margin: 20px;
+    border: 2px solid black;
+}
+
+/* Example 1: Groove border on the container */
+.border-one {
+    border-style: groove;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* Inner paragraph with dashed border */
+.border-one p {
+    font-size: 18px;
+    color: darkgreen;
+    border-style: dashed;
+    padding: 5px;
+}
+
+/* Example 2: Double red border */
+.border-two {
+    border: 3px double red;
+    padding: 15px;
+    margin: 20px;
+}
+
+/* Example 3: Solid border with rounded corners */
+.border-three {
+    border: 5px solid black;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Inner paragraph with ridge border and green color */
+.border-three p {
+    border-style: ridge;
+    padding: 5px;
+    border-color: rgb(0, 255, 76);
+}
+
+/* Example 4: Circle shape using border-radius: 50% */
+.border-four {
+    border: 4px solid blue;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* Example 5: Different borders on top and bottom + rounded edges */
+.border-five {
+    border: 5px solid purple;
+    margin: 10px;
+    padding: 10px;
+    border-bottom: dotted rgb(228, 107, 9);
+    border-radius: 5px;
+    border-top: double yellow;
+}
+
+/* Inner paragraph with light blue border and rounded corners */
+.border-five p {
+    border: 2px solid rgb(14, 170, 209);
+    padding: 5px;
+    border-radius: 5px;
+    color: darkblue;
+}
