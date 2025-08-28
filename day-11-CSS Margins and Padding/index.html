@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 11- CSS Margins and Padding</title>
+    <!-- Linking external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Page Heading -->
+    <h1>Learning about the CSS Margins and Padding</h1>
+
+    <!-- Introduction Paragraph -->
+    <p>This is a paragraph to demonstrate the use of margins and padding in CSS. 
+       Margins create space outside the element, while padding creates space inside the element.</p>
+
+    <!-- Example of content-box model -->
+    <div class="content-box">
+        <p>This box has padding but no border.</p>
+
+        <!-- Unordered list inside content-box -->
+        <div id="list">
+            <ul>
+                <li>Hello</li>
+                <li>We</li>
+                <li>Are</li>
+                <li>Learning</li>
+                <li>About</li>
+                <li>Box-sizing(Content-box)</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Example of border-box model -->
+    <div class="border-box">
+        <h1>Learning about the Border-box property of the box-sizing</h1>
+        <p>This box has padding and a border. 
+           The total width and height of the element includes the content, padding, and border.</p>
+
+        <!-- Navigation styled inside border-box -->
+        <div id="link">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Contact">Contact Us</a></li>
+            <li><a href="#Info">Information</a></li>
+            <li><a href="About">About Us</a></li>
+            <li><a href="login">Login</a></li>
+        </div>
+    </div>
+</body>
+</html>

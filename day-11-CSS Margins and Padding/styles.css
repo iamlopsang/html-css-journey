@@ -1,0 +1,83 @@
+/* Resetting margin & padding for consistency */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(159, 228, 228);
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+/* Styling for main headings */
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: royalblue;
+    text-align: justify;
+}
+
+/* Content-box example */
+.content-box {
+    width: 300px;
+    border: 2px solid black;
+    margin: 50px auto;  /* centers horizontally */
+    padding: 20px;      /* space inside */
+    background-color: white;
+    box-shadow: 5px 5px 10px grey;
+    box-sizing: content-box; /* content-box model */
+    text-align: left;
+}
+
+/* Paragraph inside content-box */
+.content-box p {
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid lightgrey;
+    background-color: rgb(240, 240, 240);
+}
+
+/* List items inside #list */
+#list li {
+    text-align: left;
+    margin-left: 10px;
+    list-style-type: square;
+}
+
+/* Border-box example */
+.border-box {
+    width: 300px;
+    height: 400px;
+    border: 2px solid black;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 10px grey;
+    box-sizing: border-box; /* border-box model */
+    text-align: left;
+}
+
+/* Navigation box styling */
+#link {
+    color: rgb(245, 11, 81);
+    background-color: rgb(207, 151, 221);
+    padding-left: 15px;
+    padding-bottom: 17px;
+    padding-top: 10px;
+    border-radius: 5px;
+    border: 1px solid navy;
+    box-sizing: border-box;
+}
+
+/* Styling for links */
+#link a {
+    text-decoration: none;
+    color: rgb(128, 15, 15);
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
