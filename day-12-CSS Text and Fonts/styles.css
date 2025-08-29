@@ -1,0 +1,94 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    max-width: 500px;
+    max-height: 600px;
+}
+
+/* Main heading styles */
+h1 {
+    font-size: 2.5em;
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    text-align: justify;
+    text-indent: 50px;
+    color: rgb(13, 105, 105);
+}
+
+/* Sub-heading (Text properties section) */
+h2 {
+    font-size: 2em;
+    color: #ff5733;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+/* Box for text example */
+.text-example {
+    border: 2px solid #ccc;
+    padding: 15px;
+    background-color: #e0f7fa;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Styling applied specifically to #pt paragraph */
+#pt {
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-shadow: 3px 2px 4px rgba(248, 17, 9, 0.1);
+    line-height: 1.8;
+    text-decoration: overline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #ff5733;
+    text-decoration-style: wavy;
+}
+
+/* Sub-heading (Font properties section) */
+h3 {
+    font-size: 2em;
+    color: #28a745;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+/* Box for font example */
+.font-example {
+    border: 2px solid #ccc;
+    padding: 15px;
+    background-color: #fff3e0;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    font-family: monospace;
+    font-size: 18px;
+}
+
+/* Styling applied specifically to #pf paragraph */
+#pf {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: #6a1b9a;
+    text-transform: lowercase;
+    font-style: oblique;
+}
