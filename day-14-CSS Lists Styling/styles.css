@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Clean font style */
+    background-color: #cf9191; /* Soft background color */
+    margin: 10px; /* Space around page */
+    padding: 20px; /* Inner spacing */
+}
+
+h1 {
+    text-align: center; /* Center the main heading */
+    color: white; 
+    text-shadow: 2px 2px 4px #000000; /* Add shadow for readability */
+}
+
+h2 {
+    color: rgb(53, 11, 11);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/* Styling for unordered list */
+ul {
+    background-color: rgb(145, 86, 86);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #000000;
+    list-style-type: square; /* Square bullets */
+}
+
+/* Styling for ordered list */
+ol {
+    background-color: rgb(145, 86, 86);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #000000;
+    list-style-type: upper-roman; /* Roman numbers */
+    margin-left: 20px;
+    list-style-position: inside; /* Numbers inside box */
+}
+
+/* Definition term */
+dt {
+    font-weight: bold;
+    color: rgb(124, 8, 8);
+    text-shadow: 1px 1px 2px #000000;
+}
+
+/* Definition list box */
+dl {
+    background-color: rgb(190, 50, 50);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #11c44c; /* Green shadow for contrast */
+    margin-top: 20px;
+    color: rgb(14, 3, 114);
+}
+
+/* Custom emoji bullets using ::before and ::after */
+ul.one::before {
+    content: "🧴"; /* Adds emoji before list */
+    margin-right: 8px;
+    font-size: 20px;
+    margin-left: -5px;
+}   
+
+ul.one::after {
+    content: "🍕"; /* Adds emoji after list */
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+ul.one li {
+    list-style-position: inside;
+    list-style-type: none; /* Remove default bullets */
+    margin: 8px 0;
+}
