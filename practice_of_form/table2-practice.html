@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+</head>
+<body>
+    <!-- Table to display class time table -->
+    <table border="1">
+        <!-- Caption for the table -->
+        <caption>Time Table for Class</caption>
+
+         <!-- Header row showing days and time slots -->
+        <tr>
+            <th>Day</th>
+            <th>09-11</th>
+            <th>11-11:30</th>
+            <th>11:30-1:00</th>
+            <th>1:00-3:00</th>
+        </tr>
+
+         <!-- Sunday schedule -->
+        <tr>
+            <td>Sunday</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Lunch Break</td>
+            <td>History</td>
+        </tr>
+
+            <!-- Monday schedule -->
+        <tr>
+            <td>Monday</td>
+            <td>Math</td>
+            <td>Science Lab</td>
+            <td>Lunch Break</td>
+            <td>Optional Math</td>
+        </tr>
+
+            <!-- Tuesday schedule with colspan for holiday -->
+        <tr>
+            <td>Tuesday</td>
+            <td>English</td>
+            <td>Science</td>
+            <td colspan="2" style="text-align: center;">Holiday</td>
+        </tr>
+
+            <!-- Wednesday and Thursday schedule with rowspan for holiday -->
+        <tr colspan="4" rowspan="2">
+            <td>Wednesday and Thursday</td>
+            <td colspan="4" style="text-align: center;">Holiday</td>
+        </tr>
+
+        <!-- Friday schedule -->
+        <tr>
+            <td>Friday</td>
+            <td>Social Studies</td>
+            <td>Science</td>
+            <td>Lunch Break</td>
+            <td>History</td>
+        </tr>
+
+            <!-- Saturday schedule with colspan for holiday -->
+        <tr>
+            <td>Saturday</td>
+            <td colspan="4" style="text-align: center;">Holiday</td>
+            
+        </tr>
+    </table>
+</body>
+</html>
