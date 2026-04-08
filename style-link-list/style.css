@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(189, 228, 228);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.class-one{
+    display:inline-block;
+    background-color: rgb(156, 155, 199);
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+}
+
+h2{
+    font-size: 16px;
+    color: rgb(87, 37, 37);
+}
+
+.link-list li a {
+    list-style-type: rectangle;
+    text-decoration: none;
+}
