@@ -1,3 +1,42 @@
 body{
     background-color: rgba(165, 206, 241, 0.61);
 }
+
+.card{
+    display: inline-block;
+    margin: auto;
+}
+
+.image-one{
+    background-image: url("./image/frontend.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 300px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+.image-two{
+    background-image: url("./image/backend.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat-x;
+    width: 400px;
+    height: 300px;
+    border: 5px dotted rgb(18, 228, 98);
+}
+
+.image-three{
+    background-image: url("./image/data_analyst.jpg");
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: repeat-y;
+    width: 400px;
+    height: 300px;
+    border: 5px dashed rgb(228, 243, 12);
+}
+
+.content{
+    background-color: rgb(96, 83, 172);
+}
