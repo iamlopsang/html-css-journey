@@ -4,17 +4,18 @@ body{
 
 .card{
     display: inline-block;
-    margin: auto;
 }
 
 .image-one{
     background-image: url("./image/frontend.jpg");
     background-size: cover;
     background-position: center;
-    width: 400px;
+    width: 365px;
     height: 300px;
     border: 5px solid black;
     border-radius: 5px;
+    margin: 22px;
+    padding: 10px;
 }
 
 .image-two{
@@ -22,9 +23,11 @@ body{
     background-size: contain;
     background-position: center;
     background-repeat: repeat-x;
-    width: 400px;
+    width: 365px;
     height: 300px;
     border: 5px dotted rgb(18, 228, 98);
+    margin: 22px;
+    padding: 10px;
 }
 
 .image-three{
@@ -32,11 +35,16 @@ body{
     background-attachment: fixed;
     background-position:center;
     background-repeat: repeat-y;
-    width: 400px;
+    width: 365px;
     height: 300px;
     border: 5px dashed rgb(228, 243, 12);
+    margin: 22px;
+    padding: 10px;
 }
 
 .content{
     background-color: rgb(96, 83, 172);
+    width: 365px;
+    margin: 22px;
+    padding: 10px;
 }
