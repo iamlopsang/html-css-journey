@@ -1,30 +1,36 @@
-body{
-    background-color: rgba(165, 206, 241, 0.61);
+/* --- BASE SETUP --- */
+body {
+    background-color: rgba(165, 206, 241, 0.61); /* Light blue brand color */
 }
 
-h1{
+/* --- TYPOGRAPHY --- */
+h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
-    margin-top: 30px;;
+    margin-top: 30px;
     text-align: center;
 }
 
-p{
+p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     text-align: center;
 }
 
-.container{
+/* --- LAYOUT: CARD CONTAINER --- */
+.container {
     text-align: center;
     margin-top: 50px;
 }
 
-.card{
+.card {
     display: inline-block;
 }
 
-.image-one{
+/* --- CARD IMAGE VARIATIONS --- */
+
+/* Featured: Frontend Card */
+.image-one {
     background-image: url("./image/frontend.jpg");
     background-size: cover;
     background-position: center;
@@ -36,11 +42,12 @@ p{
     padding: 10px;
 }
 
-.image-two{
+/* Featured: Backend Card */
+.image-two {
     background-image: url("./image/backend.jpg");
     background-size: contain;
     background-position: center;
-    background-repeat: repeat-x;
+    background-repeat: repeat-x; /* Horizontal repeat for texture effect */
     width: 365px;
     height: 300px;
     border: 5px dotted rgb(18, 228, 98);
@@ -48,10 +55,11 @@ p{
     padding: 10px;
 }
 
-.image-three{
+/* Featured: Data Analyst Card */
+.image-three {
     background-image: url("./image/data_analyst.jpg");
-    background-attachment: fixed;
-    background-position:center;
+    background-attachment: fixed; /* Keeps image stationary while scrolling */
+    background-position: center;
     background-repeat: repeat-y;
     width: 365px;
     height: 300px;
@@ -60,7 +68,8 @@ p{
     padding: 10px;
 }
 
-.content{
+/* --- TEXT CONTENT AREA --- */
+.content {
     background-color: rgb(96, 83, 172);
     width: 365px;
     margin: 22px;
